@@ -1,0 +1,39 @@
+/* Reset CSS */
+@font-face {
+  font-family: "WinkyRough";
+  src: url("../assets/fonts/WinkyRough.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --primary-color: ; //TODO:
+  --secondary-color: ; //TODO:
+  --box-shadow-color: rgba(247, 237, 226, 0.4);
+  --default-radius: 15px;
+  --overlay-color: rgba(0, 0, 0, 0.2);
+  --person-text-color: #14213d;
+}
+/* Reset CSS */
+html {
+  scroll-behavior: smooth;
+}
+body {
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "WinkyRough", sans-serif;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* End of Rest CSS */
+/* TODO: */
