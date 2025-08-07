@@ -1,3 +1,7 @@
+# 📸 Image Preview Of Projects:
+## Project One:
+<img width="1920" height="1432" alt="Display Flex-KasraK10" src="https://github.com/user-attachments/assets/1be84de3-3c02-4830-9b71-a526025efb14" />
+
 # 🧩 Flexbox Practice Projects
 
 Welcome to my front-end portfolio focused on mastering **CSS Flexbox**! This repository contains a collection of mini-projects—cards, layouts, UI components—built using `display: flex`. It's a hands-on space for practicing layout techniques and showcasing responsive design skills.
@@ -70,3 +74,4 @@ Each project is built with clean HTML/CSS and focuses on mastering layout logic 
 ## 🙌 Let's Connect
 
 If you're passionate about front-end development or want to collaborate, feel free to reach out or star the repo!
+
