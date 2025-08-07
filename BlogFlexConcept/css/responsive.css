@@ -1,0 +1,24 @@
+@media (max-width: 910px) {
+  div.main div.body {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+  }
+
+  div.main div.body div.aside {
+    width: 100%;
+    height: fit-content;
+  }
+
+  div.main div.body div.content {
+    flex-flow: column wrap;
+    width: 100%;
+    gap: 50px;
+  }
+
+  div.main div.body div.content div.card {
+    width: 100%;
+  }
+}
