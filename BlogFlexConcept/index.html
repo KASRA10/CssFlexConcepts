@@ -36,10 +36,61 @@
     />
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link
+      rel="stylesheet"
+      href="css/responsive.css"
+      type="text/css"
+      media="all"
+    />
     <title>Display Flex</title>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
-    <!-- TODO: -->
+    <div class="main">
+      <div class="titleHF box">
+        <header><h1>Blog Flex Concept</h1></header>
+      </div>
+      <div class="body">
+        <div class="aside">
+          <aside>
+            <nav>
+              <ul class="menu">
+                <li class="box"><a href="#">Category 1</a></li>
+                <li class="box"><a href="#">Category 2</a></li>
+                <li class="box"><a href="#">Category 3</a></li>
+                <li class="box"><a href="#">Category 4</a></li>
+                <li class="box"><a href="#">Category 5</a></li>
+              </ul>
+            </nav>
+          </aside>
+        </div>
+        <div class="content box">
+          <main>
+            <div class="card">
+              <div class="img"></div>
+              <div class="card-header">
+                <h1>title</h1>
+                <em>dateTime</em>
+              </div>
+              <div class="card-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis sunt fugit veniam accusamus aliquid itaque, at illum
+                repellat exercitationem assumenda.
+              </div>
+              <div class="button"><button>Read More</button></div>
+            </div>
+          </main>
+        </div>
+      </div>
+      <div class="titleHF box"><footer>footer</footer></div>
+    </div>
+    <script>
+      $("button").mousedown(function () {
+        alert("it is not available right now 😁");
+      });
+    </script>
   </body>
 </html>
