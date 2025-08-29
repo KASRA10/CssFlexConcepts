@@ -1,0 +1,69 @@
+/* Reset CSS */
+@import url("https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap");
+
+:root {
+  --primary-font: "TASA Orbiter";
+  --white: #fafafa;
+  --primary-color: #ffafcc;
+  --secondary-color: #669bbc;
+  --gray-color: #415a77;
+  --dark-color: #000814;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--primary-font), sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6em;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  filter: saturate(30%);
+}
+/* End Of Reset CSS */
+/* body */
+header nav.main-navigationBar {
+  width: 100%;
+  background-color: red;
+  padding: 1rem 0;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/* End Of body */
